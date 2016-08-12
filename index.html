@@ -1,0 +1,13 @@
+<html ng-app="myFirstApp">
+	<head>
+		<meta "charset=utf-8" />
+		<title>index</title>
+		<script src="js/angular.js"></script>
+	</head>
+	<body>
+	<input ng-model="color" />
+	<br>
+		<div style="width:200px; height:100px;" ng-style="{background:color}">color</div>
+	</body>
+</html>
+<script>angular.module('myFirstApp', []);</script>
